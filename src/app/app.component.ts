@@ -11,18 +11,6 @@ export class AppComponent {
   public objectData = [
     { type: "string", value: "abc" },
     { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
-    { type: "string", value: "abc" },
     { type: "string", value: "abc" }
   ];
 }
