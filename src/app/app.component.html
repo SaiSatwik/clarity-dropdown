@@ -1,0 +1,15 @@
+<clr-dropdown>
+  <button class="btn btn-outline-primary" clrDropdownTrigger>
+      Clarity Dropdown items
+      <clr-icon shape="caret down"></clr-icon>
+  </button>
+  <clr-dropdown-menu *clrIfOpen clrPosition="bottom-right">
+    <div>
+      <!-- <ng-container *ngFor="let item of objectData"> -->
+      <div clrDropdownItem> {{objectData[0].value}}</div>
+      <div clrDropdownItem> {{objectData[1].value}}</div>
+      <div clrDropdownItem> {{objectData[2].value}}</div>
+      <!-- </ng-container> -->
+    </div>
+  </clr-dropdown-menu>
+</clr-dropdown>

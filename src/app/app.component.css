@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.dropdown-items-wrapper {
+  max-height: 160px;
+  max-width: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.site-info-wrapper {
+  line-height: 1.5;
+}
+.site-name {
+  font-weight: 500;
+}
